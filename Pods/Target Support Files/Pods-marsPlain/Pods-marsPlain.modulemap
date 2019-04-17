@@ -1,0 +1,6 @@
+framework module Pods_marsPlain {
+  umbrella header "Pods-marsPlain-umbrella.h"
+
+  export *
+  module * { export * }
+}
