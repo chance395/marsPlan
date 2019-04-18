@@ -20,6 +20,10 @@
 		844656B5226479E500A04A9D /* marsPlainUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 844656B4226479E500A04A9D /* marsPlainUITests.m */; };
 		845973F42265FB9000F204D4 /* JJCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 845973F32265FB9000F204D4 /* JJCustomView.m */; };
 		845973F62265FBAE00F204D4 /* JJCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845973F52265FBAE00F204D4 /* JJCustomView.xib */; };
+		84CC361222684C9300E2AD97 /* JJTestComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CC361122684C9300E2AD97 /* JJTestComponent.m */; };
+		84CC361522684E9000E2AD97 /* JJTesttComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CC361422684E9000E2AD97 /* JJTesttComponent.m */; };
+		84CC36282268578400E2AD97 /* JJTestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CC36272268578400E2AD97 /* JJTestTableViewCell.m */; };
+		84EBA39722680A7000E91D44 /* XHBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EBA39622680A7000E91D44 /* XHBaseTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +67,14 @@
 		845973F22265FB9000F204D4 /* JJCustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJCustomView.h; sourceTree = "<group>"; };
 		845973F32265FB9000F204D4 /* JJCustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJCustomView.m; sourceTree = "<group>"; };
 		845973F52265FBAE00F204D4 /* JJCustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JJCustomView.xib; sourceTree = "<group>"; };
+		84CC361022684C9300E2AD97 /* JJTestComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJTestComponent.h; sourceTree = "<group>"; };
+		84CC361122684C9300E2AD97 /* JJTestComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJTestComponent.m; sourceTree = "<group>"; };
+		84CC361322684E9000E2AD97 /* JJTesttComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJTesttComponent.h; sourceTree = "<group>"; };
+		84CC361422684E9000E2AD97 /* JJTesttComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJTesttComponent.m; sourceTree = "<group>"; };
+		84CC36262268578400E2AD97 /* JJTestTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJTestTableViewCell.h; sourceTree = "<group>"; };
+		84CC36272268578400E2AD97 /* JJTestTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJTestTableViewCell.m; sourceTree = "<group>"; };
+		84EBA39522680A7000E91D44 /* XHBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHBaseTableViewCell.h; sourceTree = "<group>"; };
+		84EBA39622680A7000E91D44 /* XHBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHBaseTableViewCell.m; sourceTree = "<group>"; };
 		C3DEC09504878107E24D91B5 /* Pods-marsPlain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-marsPlain.release.xcconfig"; path = "Target Support Files/Pods-marsPlain/Pods-marsPlain.release.xcconfig"; sourceTree = "<group>"; };
 		E6A09F78D0B88685690435A8 /* Pods_marsPlain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_marsPlain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -118,6 +130,7 @@
 		8446568F226479E300A04A9D /* marsPlain */ = {
 			isa = PBXGroup;
 			children = (
+				84EBA3942268098100E91D44 /* baeView */,
 				84465690226479E300A04A9D /* AppDelegate.h */,
 				84465691226479E300A04A9D /* AppDelegate.m */,
 				84465693226479E300A04A9D /* ViewController.h */,
@@ -153,6 +166,21 @@
 				844656B6226479E500A04A9D /* Info.plist */,
 			);
 			path = marsPlainUITests;
+			sourceTree = "<group>";
+		};
+		84EBA3942268098100E91D44 /* baeView */ = {
+			isa = PBXGroup;
+			children = (
+				84EBA39522680A7000E91D44 /* XHBaseTableViewCell.h */,
+				84EBA39622680A7000E91D44 /* XHBaseTableViewCell.m */,
+				84CC36262268578400E2AD97 /* JJTestTableViewCell.h */,
+				84CC36272268578400E2AD97 /* JJTestTableViewCell.m */,
+				84CC361022684C9300E2AD97 /* JJTestComponent.h */,
+				84CC361122684C9300E2AD97 /* JJTestComponent.m */,
+				84CC361322684E9000E2AD97 /* JJTesttComponent.h */,
+				84CC361422684E9000E2AD97 /* JJTesttComponent.m */,
+			);
+			path = baeView;
 			sourceTree = "<group>";
 		};
 		8CBD5981AE176DF94BDCE90A /* Pods */ = {
@@ -367,10 +395,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8439DBD7226581750005569D /* JJTestViewController.m in Sources */,
+				84CC361522684E9000E2AD97 /* JJTesttComponent.m in Sources */,
+				84CC361222684C9300E2AD97 /* JJTestComponent.m in Sources */,
 				84465695226479E300A04A9D /* ViewController.m in Sources */,
 				844656A0226479E500A04A9D /* main.m in Sources */,
 				84465692226479E300A04A9D /* AppDelegate.m in Sources */,
+				84EBA39722680A7000E91D44 /* XHBaseTableViewCell.m in Sources */,
 				845973F42265FB9000F204D4 /* JJCustomView.m in Sources */,
+				84CC36282268578400E2AD97 /* JJTestTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

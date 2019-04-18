@@ -17,6 +17,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *actionBtn;
 @property (weak, nonatomic) IBOutlet UITextField *textField;
 @property (strong ,nonatomic)JJCustomView *customView;
+
 @end
 
 @implementation JJTestViewController
@@ -109,13 +110,13 @@
     }];
 
     //RAC 动态绑定  组合,只有两个信号都有值,才可以组合
-    
-    RAC(self.customView,backgroundColor)=[RACSignal combineLatest:@[self.label.text,self.textField.rac_textSignal] reduce:^id (NSString *text,NSString*value){
-        if ([value isEqualToString:@"666"]) {
-            return [UIColor redColor];
-        }
-        return nil;
-    }];
+//
+//    RAC(self.customView,backgroundColor)=[RACSignal combineLatest:@[self.label.text,self.textField.rac_textSignal] reduce:^id (NSString *text,NSString*value){
+//        if ([value isEqualToString:@"666"]) {
+//            return [UIColor redColor];
+//        }
+//        return nil;
+//    }];
     
 }
 

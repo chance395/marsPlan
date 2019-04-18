@@ -16,7 +16,7 @@
 @end
 @implementation JJCustomView
 /**
- XIB创建会掉用
+ XIB创建会调用
  */
 - (instancetype)initWithCoder:(NSCoder *)coder{
     self = [super initWithCoder:coder];
@@ -27,7 +27,7 @@
 }
 
 /**
- 代码创建会掉用
+ 代码创建会调用
  */
 - (instancetype)initWithFrame:(CGRect)frame{
     self = [super initWithFrame:frame];
@@ -56,7 +56,9 @@
     
 }
 
-
+/**
+ 直接代替了代理也可以在控制器中使用
+ */
 - (IBAction)testBtnDidClick:(id)sender {
     if (self.subject) {
         [self.subject sendNext:sender];

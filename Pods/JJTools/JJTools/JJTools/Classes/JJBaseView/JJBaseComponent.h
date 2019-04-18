@@ -35,11 +35,19 @@
 @interface JJMine_Wechat_VerifyComponent : JJBaseComponent
 
 @property(nonatomic,strong) UIImageView                 * iconImageView;
-
 @property(nonatomic,strong) UILabel                     * titleLabel;
-
 @property(nonatomic,strong) UILabel                     * subTitleLabel;
 
+
+/**
+ return a custom component
+
+ @param viewColor BackgroundColor
+ @param paramDic paramDic
+ @param superView superview
+ @param block block
+ @return component
+ */
 +(JJMine_Wechat_VerifyComponent*)MAGetComponentWithBackgroundColor:(UIColor*)viewColor paramDic:(NSDictionary*)paramDic superView:(UIView*)superView masonrySet:(void(^)(UIView*currentView,MASConstraintMaker*make))block;
 
 @end
