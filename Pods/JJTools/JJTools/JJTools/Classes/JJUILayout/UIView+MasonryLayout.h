@@ -22,4 +22,6 @@
  */
 + (UIView*)MAGetUIViewWithBackgroundColor:(UIColor*)viewColor superView:(UIView*)superView masonrySet:(void(^)(UIView*currentView,MASConstraintMaker*make))block;
 
++ (UIView*)MAGetUIViewWithHexBackgroundColor:(NSString*)hexStr superView:(UIView*)superView masonrySet:(void(^)(UIView*currentView,MASConstraintMaker*make))block;
+
 @end

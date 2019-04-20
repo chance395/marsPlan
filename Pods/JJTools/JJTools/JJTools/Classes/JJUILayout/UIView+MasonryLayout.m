@@ -7,7 +7,7 @@
 //
 
 #import "UIView+MasonryLayout.h"
-
+#import "UIColor+JJTools.h"
 
 @implementation UIView (MasonryLayout)
 
@@ -27,4 +27,23 @@
     }];
     return view;
 }
+
++ (UIView*)MAGetUIViewWithHexBackgroundColor:(NSString*)hexStr superView:(UIView*)superView masonrySet:(void(^)(UIView*currentView,MASConstraintMaker*make))block
+{
+    UIView *view =[[UIView alloc]init];
+    if (hexStr) {
+        view.backgroundColor =[UIColor JJColorWithHexStr:hexStr];
+    }
+    view.translatesAutoresizingMaskIntoConstraints =NO;
+    [superView addSubview:view];
+    
+    [view mas_makeConstraints:^(MASConstraintMaker *make) {
+        if (block) {
+            block(view,make);
+        }
+    }];
+    return view;
+}
+
+
 @end

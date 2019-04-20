@@ -10,7 +10,7 @@
 #endif
 #endif
 
-#import "JJBaseHeader.h"
+#import "JJTools.h"
 #import "JJDispatch_queue.h"
 #import "DZNEmptyDataSet.h"
 #import "JJBaseCollectionReusableView.h"

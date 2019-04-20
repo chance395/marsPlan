@@ -16,8 +16,21 @@
 
 @property (strong, nonatomic) UILabel *   veryfiedlabel;
 
+/**
+ init collection the method is needed
+
+ @param frame frame
+ @return cell
+ */
 - (instancetype)initWithFrame:(CGRect)frame;
 
+/**
+ cofig cell
+
+ @param dic dic
+ @param arrData data
+ @param indexPath index
+ */
 - (void)configJJBaseCollectionViewCellWithDic:(NSDictionary *)dic arrdata:(NSMutableArray *)arrData indexPath:(NSIndexPath *)indexPath;
 
 @end

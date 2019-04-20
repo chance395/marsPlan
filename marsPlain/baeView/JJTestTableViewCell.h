@@ -2,12 +2,11 @@
 //  JJTestTableViewCell.h
 //  marsPlain
 //
-//  Created by Brian on 2019/4/18.
+//  Created by Brian on 2019/4/19.
 //  Copyright © 2019 Brian. All rights reserved.
 //
 
 #import <JJTools/JJTools.h>
-#import "JJBaseTableViewCell.h"
 
 @interface JJTestTableViewCell : JJBaseTableViewCell
 

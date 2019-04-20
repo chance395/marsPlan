@@ -1,5 +1,5 @@
 //
-//  JJBaseHeader.h
+//  JJTools.h
 //  qhg_ios
 //
 //  Created by Brain on 2018/9/10.
@@ -24,6 +24,7 @@
 #import "JJBaseTabBarViewController.h"
 #import "JJBaseTableViewHeaderFooterView.h"
 #import "JJBaseCollectionViewCell.h"
+#import "JJBaseCollectionReusableView.h"
 
 //category
 #import "NSString+JJTools.h"
