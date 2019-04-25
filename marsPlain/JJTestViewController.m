@@ -75,6 +75,7 @@
         NSLog(@"self.textField.rac_textSignal%@",x);
     }];
     
+    [self theUseOfRACSubject];
     //fitter 条件判断
     [[self.textField.rac_textSignal filter:^BOOL(NSString * _Nullable value) {
         return [value isEqualToString:@"666"]; // 表示输入文字==666 时才会调用下面的 block
@@ -117,6 +118,15 @@
 //        }
 //        return nil;
 //    }];
+    [self.btn setTitle:@"???？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？" forState:UIControlStateNormal];
+    [self.btn setImage:[UIImage imageNamed:@"pic_default"] forState:UIControlStateNormal];
+    [self.btn addTarget:self action:@selector(testTT) forControlEvents:UIControlEventTouchUpInside];
+   
+}
+
+
+-(void)testTT
+{
     
 }
 

@@ -5,5 +5,8 @@ target 'marsPlain' do
 pod 'MJExtension'
 pod 'ReactiveObjC'
 pod 'JJTools'
+pod 'zhPopupController'
+
 end
+
 
