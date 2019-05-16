@@ -11,6 +11,7 @@
 #import "UITextView+MasonryLayout.h"
 #import  <JJTools/JJTools.h>
 #import "JJTestComponent.h"
+#import "JJAVViewController.h"
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *testLabel;
 @property (weak, nonatomic) IBOutlet UIButton *testBtn;
@@ -58,6 +59,11 @@
     
     JJTestViewController *test =[[JJTestViewController alloc]init];
     [self presentViewController:test animated:YES completion:nil];
+    
+//    JJAVViewController *test =[[JJAVViewController alloc]init];
+//    [self presentViewController:test animated:YES completion:nil];
+    
+
 }
 
 -(void)injected{
