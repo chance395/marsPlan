@@ -245,7 +245,7 @@ PODS:
   - zhPopupController (1.0.3)
 
 DEPENDENCIES:
-  - JJTools
+  - JJTools (~> 1.2.9)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -284,6 +284,6 @@ SPEC CHECKSUMS:
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
   zhPopupController: 4e6bd734062cb9c7ebe8113568550bade168bed7
 
-PODFILE CHECKSUM: 9d3e59d5c2d9888f3a50a6f3b95ad2ba74be0ac7
+PODFILE CHECKSUM: 837477846f8a13c5b601629a13f162766310a46e
 
 COCOAPODS: 1.5.3
