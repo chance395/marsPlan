@@ -33,5 +33,21 @@
    return   [UIView MAGetUIViewWithBackgroundColor:[UIColor JJColorWithHexStr:hexStr] superView:superView masonrySet:block];
 }
 
++ (UIView*)MAGetUIViewWithBackgroundColor:(UIColor*)viewColor corner:(CGFloat)corners superView:(UIView*)superView masonrySet:(void(^)(UIView*currentView,MASConstraintMaker*make))block
+{
+    UIView *View =[UITextView MAGetUIViewWithBackgroundColor:viewColor superView:superView masonrySet:block];
+    if (corners) {
+        View.layer.cornerRadius =corners;
+        View.layer.masksToBounds =YES;
+    }
+    return View;
+}
+
++ (UIView*)MAGetUIViewWithHexBackgroundColor:(NSString*)viewColorStr corner:(CGFloat)corners superView:(UIView*)superView masonrySet:(void(^)(UIView*currentView,MASConstraintMaker*make))block;
+
+{
+    return [UIView MAGetUIViewWithBackgroundColor:[UIColor JJColorWithHexStr:viewColorStr] corner:corners superView:superView masonrySet:block];
+}
+
 
 @end

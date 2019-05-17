@@ -1,2 +1,0 @@
-# marsPlan
-usualy practice demo 

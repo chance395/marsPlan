@@ -20,8 +20,20 @@
  @param block block
  @return UIView
  */
-+ (UIView*)MAGetUIViewWithBackgroundColor:(UIColor*)viewColor superView:(UIView*)superView masonrySet:(void(^)(UIView*currentView,MASConstraintMaker*make))block;
++ (UIView*)MAGetUIViewWithBackgroundColor:(UIColor*)viewColor superView:(UIView*)superView masonrySet:(void(^)(UIView*currentView,MASConstraintMaker*make))block DEPRECATED_MSG_ATTRIBUTE("please use another method with corners");
 
-+ (UIView*)MAGetUIViewWithHexBackgroundColor:(NSString*)hexStr superView:(UIView*)superView masonrySet:(void(^)(UIView*currentView,MASConstraintMaker*make))block;
+/**
+return View
+
+ @param viewColor viewColorStr
+ @param corners corners
+ @param superView superView
+ @param block block
+ @return UIView
+ */
++ (UIView*)MAGetUIViewWithBackgroundColor:(UIColor*)viewColor corner:(CGFloat)corners superView:(UIView*)superView masonrySet:(void(^)(UIView*currentView,MASConstraintMaker*make))block;
+
+
++ (UIView*)MAGetUIViewWithHexBackgroundColor:(NSString*)viewColorStr corner:(CGFloat)corners superView:(UIView*)superView masonrySet:(void(^)(UIView*currentView,MASConstraintMaker*make))block;
 
 @end

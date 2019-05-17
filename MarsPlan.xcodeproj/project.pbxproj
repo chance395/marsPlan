@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CB2F48650FC8C05A73FBF06 /* libPods-MarsPlan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 370718AEEBB3830AE4FDCC76 /* libPods-MarsPlan.a */; };
+		F7C6C732228E75C800B4D6C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C6C731228E75C800B4D6C5 /* AppDelegate.m */; };
+		F7C6C738228E75C800B4D6C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7C6C736228E75C800B4D6C5 /* Main.storyboard */; };
+		F7C6C73A228E75C800B4D6C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7C6C739228E75C800B4D6C5 /* Assets.xcassets */; };
+		F7C6C73D228E75C800B4D6C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7C6C73B228E75C800B4D6C5 /* LaunchScreen.storyboard */; };
+		F7C6C740228E75C800B4D6C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C6C73F228E75C800B4D6C5 /* main.m */; };
+		F7C6C74A228E75C900B4D6C5 /* MarsPlanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C6C749228E75C900B4D6C5 /* MarsPlanTests.m */; };
+		F7C6C755228E75C900B4D6C5 /* MarsPlanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C6C754228E75C900B4D6C5 /* MarsPlanUITests.m */; };
+		F7C6C764228E763D00B4D6C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C6C762228E763C00B4D6C5 /* ViewController.m */; };
+		F7C6C769228E76A600B4D6C5 /* JJCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C6C765228E76A600B4D6C5 /* JJCustomView.m */; };
+		F7C6C76A228E76A600B4D6C5 /* JJAVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C6C767228E76A600B4D6C5 /* JJAVViewController.m */; };
+		F7C6C76F228E76B600B4D6C5 /* JJCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7C6C76B228E76B600B4D6C5 /* JJCustomView.xib */; };
+		F7C6C770228E76B600B4D6C5 /* JJTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C6C76D228E76B600B4D6C5 /* JJTestViewController.m */; };
+		F7C6C771228E76B600B4D6C5 /* JJTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7C6C76E228E76B600B4D6C5 /* JJTestViewController.xib */; };
+		F7C6C781228E76C300B4D6C5 /* JJTestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7C6C778228E76C300B4D6C5 /* JJTestTableViewCell.xib */; };
+		F7C6C782228E76C300B4D6C5 /* JJTestCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C6C779228E76C300B4D6C5 /* JJTestCollectionViewCell.m */; };
+		F7C6C783228E76C300B4D6C5 /* JJTestTableViewHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C6C77A228E76C300B4D6C5 /* JJTestTableViewHeaderFooterView.m */; };
+		F7C6C784228E76C300B4D6C5 /* UITextView+MasonryLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C6C77B228E76C300B4D6C5 /* UITextView+MasonryLayout.m */; };
+		F7C6C785228E76C300B4D6C5 /* JJTestCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C6C77C228E76C300B4D6C5 /* JJTestCollectionReusableView.m */; };
+		F7C6C786228E76C300B4D6C5 /* JJTestComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C6C77D228E76C300B4D6C5 /* JJTestComponent.m */; };
+		F7C6C787228E76C300B4D6C5 /* JJTestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C6C77E228E76C300B4D6C5 /* JJTestTableViewCell.m */; };
+		F7C6C788228E76C300B4D6C5 /* JJTestComponent.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7C6C780228E76C300B4D6C5 /* JJTestComponent.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7C6C746228E75C900B4D6C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7C6C725228E75C800B4D6C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7C6C72C228E75C800B4D6C5;
+			remoteInfo = MarsPlan;
+		};
+		F7C6C751228E75C900B4D6C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7C6C725228E75C800B4D6C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7C6C72C228E75C800B4D6C5;
+			remoteInfo = MarsPlan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		103D27E34AF3D73F96243262 /* Pods-MarsPlan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsPlan.release.xcconfig"; path = "Pods/Target Support Files/Pods-MarsPlan/Pods-MarsPlan.release.xcconfig"; sourceTree = "<group>"; };
+		370718AEEBB3830AE4FDCC76 /* libPods-MarsPlan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MarsPlan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDCD066FBA83DBCC893028D3 /* Pods-MarsPlan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsPlan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MarsPlan/Pods-MarsPlan.debug.xcconfig"; sourceTree = "<group>"; };
+		F7C6C72D228E75C800B4D6C5 /* MarsPlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarsPlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7C6C730228E75C800B4D6C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7C6C731228E75C800B4D6C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7C6C737228E75C800B4D6C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7C6C739228E75C800B4D6C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7C6C73C228E75C800B4D6C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7C6C73E228E75C800B4D6C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7C6C73F228E75C800B4D6C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7C6C745228E75C900B4D6C5 /* MarsPlanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsPlanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7C6C749228E75C900B4D6C5 /* MarsPlanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarsPlanTests.m; sourceTree = "<group>"; };
+		F7C6C74B228E75C900B4D6C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7C6C750228E75C900B4D6C5 /* MarsPlanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsPlanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7C6C754228E75C900B4D6C5 /* MarsPlanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarsPlanUITests.m; sourceTree = "<group>"; };
+		F7C6C756228E75C900B4D6C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7C6C762228E763C00B4D6C5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F7C6C763228E763C00B4D6C5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F7C6C765228E76A600B4D6C5 /* JJCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJCustomView.m; sourceTree = "<group>"; };
+		F7C6C766228E76A600B4D6C5 /* JJAVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJAVViewController.h; sourceTree = "<group>"; };
+		F7C6C767228E76A600B4D6C5 /* JJAVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJAVViewController.m; sourceTree = "<group>"; };
+		F7C6C768228E76A600B4D6C5 /* JJCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJCustomView.h; sourceTree = "<group>"; };
+		F7C6C76B228E76B600B4D6C5 /* JJCustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JJCustomView.xib; sourceTree = "<group>"; };
+		F7C6C76C228E76B600B4D6C5 /* JJTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJTestViewController.h; sourceTree = "<group>"; };
+		F7C6C76D228E76B600B4D6C5 /* JJTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJTestViewController.m; sourceTree = "<group>"; };
+		F7C6C76E228E76B600B4D6C5 /* JJTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JJTestViewController.xib; sourceTree = "<group>"; };
+		F7C6C773228E76C300B4D6C5 /* JJTestTableViewHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJTestTableViewHeaderFooterView.h; sourceTree = "<group>"; };
+		F7C6C774228E76C300B4D6C5 /* JJTestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJTestTableViewCell.h; sourceTree = "<group>"; };
+		F7C6C775228E76C300B4D6C5 /* JJTestComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJTestComponent.h; sourceTree = "<group>"; };
+		F7C6C776228E76C300B4D6C5 /* JJTestCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJTestCollectionReusableView.h; sourceTree = "<group>"; };
+		F7C6C777228E76C300B4D6C5 /* UITextView+MasonryLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+MasonryLayout.h"; sourceTree = "<group>"; };
+		F7C6C778228E76C300B4D6C5 /* JJTestTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JJTestTableViewCell.xib; sourceTree = "<group>"; };
+		F7C6C779228E76C300B4D6C5 /* JJTestCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJTestCollectionViewCell.m; sourceTree = "<group>"; };
+		F7C6C77A228E76C300B4D6C5 /* JJTestTableViewHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJTestTableViewHeaderFooterView.m; sourceTree = "<group>"; };
+		F7C6C77B228E76C300B4D6C5 /* UITextView+MasonryLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+MasonryLayout.m"; sourceTree = "<group>"; };
+		F7C6C77C228E76C300B4D6C5 /* JJTestCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJTestCollectionReusableView.m; sourceTree = "<group>"; };
+		F7C6C77D228E76C300B4D6C5 /* JJTestComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJTestComponent.m; sourceTree = "<group>"; };
+		F7C6C77E228E76C300B4D6C5 /* JJTestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJTestTableViewCell.m; sourceTree = "<group>"; };
+		F7C6C77F228E76C300B4D6C5 /* JJTestCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJTestCollectionViewCell.h; sourceTree = "<group>"; };
+		F7C6C780228E76C300B4D6C5 /* JJTestComponent.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JJTestComponent.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7C6C72A228E75C800B4D6C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB2F48650FC8C05A73FBF06 /* libPods-MarsPlan.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7C6C742228E75C900B4D6C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7C6C74D228E75C900B4D6C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83558A36AD645447B91E8F31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DDCD066FBA83DBCC893028D3 /* Pods-MarsPlan.debug.xcconfig */,
+				103D27E34AF3D73F96243262 /* Pods-MarsPlan.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B5DBE8DA7627E542F4C7627A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				370718AEEBB3830AE4FDCC76 /* libPods-MarsPlan.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7C6C724228E75C800B4D6C5 = {
+			isa = PBXGroup;
+			children = (
+				F7C6C72F228E75C800B4D6C5 /* MarsPlan */,
+				F7C6C748228E75C900B4D6C5 /* MarsPlanTests */,
+				F7C6C753228E75C900B4D6C5 /* MarsPlanUITests */,
+				F7C6C72E228E75C800B4D6C5 /* Products */,
+				83558A36AD645447B91E8F31 /* Pods */,
+				B5DBE8DA7627E542F4C7627A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F7C6C72E228E75C800B4D6C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7C6C72D228E75C800B4D6C5 /* MarsPlan.app */,
+				F7C6C745228E75C900B4D6C5 /* MarsPlanTests.xctest */,
+				F7C6C750228E75C900B4D6C5 /* MarsPlanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7C6C72F228E75C800B4D6C5 /* MarsPlan */ = {
+			isa = PBXGroup;
+			children = (
+				F7C6C772228E76C300B4D6C5 /* baeView */,
+				F7C6C76B228E76B600B4D6C5 /* JJCustomView.xib */,
+				F7C6C76C228E76B600B4D6C5 /* JJTestViewController.h */,
+				F7C6C76D228E76B600B4D6C5 /* JJTestViewController.m */,
+				F7C6C76E228E76B600B4D6C5 /* JJTestViewController.xib */,
+				F7C6C766228E76A600B4D6C5 /* JJAVViewController.h */,
+				F7C6C767228E76A600B4D6C5 /* JJAVViewController.m */,
+				F7C6C768228E76A600B4D6C5 /* JJCustomView.h */,
+				F7C6C765228E76A600B4D6C5 /* JJCustomView.m */,
+				F7C6C763228E763C00B4D6C5 /* ViewController.h */,
+				F7C6C762228E763C00B4D6C5 /* ViewController.m */,
+				F7C6C730228E75C800B4D6C5 /* AppDelegate.h */,
+				F7C6C731228E75C800B4D6C5 /* AppDelegate.m */,
+				F7C6C736228E75C800B4D6C5 /* Main.storyboard */,
+				F7C6C739228E75C800B4D6C5 /* Assets.xcassets */,
+				F7C6C73B228E75C800B4D6C5 /* LaunchScreen.storyboard */,
+				F7C6C73E228E75C800B4D6C5 /* Info.plist */,
+				F7C6C73F228E75C800B4D6C5 /* main.m */,
+			);
+			path = MarsPlan;
+			sourceTree = "<group>";
+		};
+		F7C6C748228E75C900B4D6C5 /* MarsPlanTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7C6C749228E75C900B4D6C5 /* MarsPlanTests.m */,
+				F7C6C74B228E75C900B4D6C5 /* Info.plist */,
+			);
+			path = MarsPlanTests;
+			sourceTree = "<group>";
+		};
+		F7C6C753228E75C900B4D6C5 /* MarsPlanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7C6C754228E75C900B4D6C5 /* MarsPlanUITests.m */,
+				F7C6C756228E75C900B4D6C5 /* Info.plist */,
+			);
+			path = MarsPlanUITests;
+			sourceTree = "<group>";
+		};
+		F7C6C772228E76C300B4D6C5 /* baeView */ = {
+			isa = PBXGroup;
+			children = (
+				F7C6C773228E76C300B4D6C5 /* JJTestTableViewHeaderFooterView.h */,
+				F7C6C774228E76C300B4D6C5 /* JJTestTableViewCell.h */,
+				F7C6C775228E76C300B4D6C5 /* JJTestComponent.h */,
+				F7C6C776228E76C300B4D6C5 /* JJTestCollectionReusableView.h */,
+				F7C6C777228E76C300B4D6C5 /* UITextView+MasonryLayout.h */,
+				F7C6C778228E76C300B4D6C5 /* JJTestTableViewCell.xib */,
+				F7C6C779228E76C300B4D6C5 /* JJTestCollectionViewCell.m */,
+				F7C6C77A228E76C300B4D6C5 /* JJTestTableViewHeaderFooterView.m */,
+				F7C6C77B228E76C300B4D6C5 /* UITextView+MasonryLayout.m */,
+				F7C6C77C228E76C300B4D6C5 /* JJTestCollectionReusableView.m */,
+				F7C6C77D228E76C300B4D6C5 /* JJTestComponent.m */,
+				F7C6C77E228E76C300B4D6C5 /* JJTestTableViewCell.m */,
+				F7C6C77F228E76C300B4D6C5 /* JJTestCollectionViewCell.h */,
+				F7C6C780228E76C300B4D6C5 /* JJTestComponent.xib */,
+			);
+			path = baeView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7C6C72C228E75C800B4D6C5 /* MarsPlan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7C6C759228E75C900B4D6C5 /* Build configuration list for PBXNativeTarget "MarsPlan" */;
+			buildPhases = (
+				0FEA2FAAE9E748D10ACE0239 /* [CP] Check Pods Manifest.lock */,
+				F7C6C729228E75C800B4D6C5 /* Sources */,
+				F7C6C72A228E75C800B4D6C5 /* Frameworks */,
+				F7C6C72B228E75C800B4D6C5 /* Resources */,
+				ED91CC2FFE070A1EC040C74D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarsPlan;
+			productName = MarsPlan;
+			productReference = F7C6C72D228E75C800B4D6C5 /* MarsPlan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7C6C744228E75C900B4D6C5 /* MarsPlanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7C6C75C228E75C900B4D6C5 /* Build configuration list for PBXNativeTarget "MarsPlanTests" */;
+			buildPhases = (
+				F7C6C741228E75C900B4D6C5 /* Sources */,
+				F7C6C742228E75C900B4D6C5 /* Frameworks */,
+				F7C6C743228E75C900B4D6C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7C6C747228E75C900B4D6C5 /* PBXTargetDependency */,
+			);
+			name = MarsPlanTests;
+			productName = MarsPlanTests;
+			productReference = F7C6C745228E75C900B4D6C5 /* MarsPlanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7C6C74F228E75C900B4D6C5 /* MarsPlanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7C6C75F228E75C900B4D6C5 /* Build configuration list for PBXNativeTarget "MarsPlanUITests" */;
+			buildPhases = (
+				F7C6C74C228E75C900B4D6C5 /* Sources */,
+				F7C6C74D228E75C900B4D6C5 /* Frameworks */,
+				F7C6C74E228E75C900B4D6C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7C6C752228E75C900B4D6C5 /* PBXTargetDependency */,
+			);
+			name = MarsPlanUITests;
+			productName = MarsPlanUITests;
+			productReference = F7C6C750228E75C900B4D6C5 /* MarsPlanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7C6C725228E75C800B4D6C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JJ;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Brian;
+				TargetAttributes = {
+					F7C6C72C228E75C800B4D6C5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F7C6C744228E75C900B4D6C5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F7C6C72C228E75C800B4D6C5;
+					};
+					F7C6C74F228E75C900B4D6C5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F7C6C72C228E75C800B4D6C5;
+					};
+				};
+			};
+			buildConfigurationList = F7C6C728228E75C800B4D6C5 /* Build configuration list for PBXProject "MarsPlan" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7C6C724228E75C800B4D6C5;
+			productRefGroup = F7C6C72E228E75C800B4D6C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7C6C72C228E75C800B4D6C5 /* MarsPlan */,
+				F7C6C744228E75C900B4D6C5 /* MarsPlanTests */,
+				F7C6C74F228E75C900B4D6C5 /* MarsPlanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7C6C72B228E75C800B4D6C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C6C73D228E75C800B4D6C5 /* LaunchScreen.storyboard in Resources */,
+				F7C6C771228E76B600B4D6C5 /* JJTestViewController.xib in Resources */,
+				F7C6C73A228E75C800B4D6C5 /* Assets.xcassets in Resources */,
+				F7C6C738228E75C800B4D6C5 /* Main.storyboard in Resources */,
+				F7C6C76F228E76B600B4D6C5 /* JJCustomView.xib in Resources */,
+				F7C6C781228E76C300B4D6C5 /* JJTestTableViewCell.xib in Resources */,
+				F7C6C788228E76C300B4D6C5 /* JJTestComponent.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7C6C743228E75C900B4D6C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7C6C74E228E75C900B4D6C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FEA2FAAE9E748D10ACE0239 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarsPlan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED91CC2FFE070A1EC040C74D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MarsPlan/Pods-MarsPlan-resources.sh",
+				"${PODS_ROOT}/HXPhotoPicker/照片选择器/HXPhotoPicker/Resource/HXPhotoPicker.bundle",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/JJTools/JJTools/JJTools/JJToolsSource.bundle",
+				"${PODS_ROOT}/JJTools/JJTools/Pods/HXPhotoPicker/照片选择器/HXPhotoPicker/Resource/HXPhotoPicker.bundle",
+				"${PODS_ROOT}/JJTools/JJTools/Pods/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/JJTools/JJTools/Pods/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HXPhotoPicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JJToolsSource.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MarsPlan/Pods-MarsPlan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7C6C729228E75C800B4D6C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C6C784228E76C300B4D6C5 /* UITextView+MasonryLayout.m in Sources */,
+				F7C6C770228E76B600B4D6C5 /* JJTestViewController.m in Sources */,
+				F7C6C764228E763D00B4D6C5 /* ViewController.m in Sources */,
+				F7C6C786228E76C300B4D6C5 /* JJTestComponent.m in Sources */,
+				F7C6C783228E76C300B4D6C5 /* JJTestTableViewHeaderFooterView.m in Sources */,
+				F7C6C740228E75C800B4D6C5 /* main.m in Sources */,
+				F7C6C76A228E76A600B4D6C5 /* JJAVViewController.m in Sources */,
+				F7C6C732228E75C800B4D6C5 /* AppDelegate.m in Sources */,
+				F7C6C769228E76A600B4D6C5 /* JJCustomView.m in Sources */,
+				F7C6C782228E76C300B4D6C5 /* JJTestCollectionViewCell.m in Sources */,
+				F7C6C785228E76C300B4D6C5 /* JJTestCollectionReusableView.m in Sources */,
+				F7C6C787228E76C300B4D6C5 /* JJTestTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7C6C741228E75C900B4D6C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C6C74A228E75C900B4D6C5 /* MarsPlanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7C6C74C228E75C900B4D6C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C6C755228E75C900B4D6C5 /* MarsPlanUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7C6C747228E75C900B4D6C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7C6C72C228E75C800B4D6C5 /* MarsPlan */;
+			targetProxy = F7C6C746228E75C900B4D6C5 /* PBXContainerItemProxy */;
+		};
+		F7C6C752228E75C900B4D6C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7C6C72C228E75C800B4D6C5 /* MarsPlan */;
+			targetProxy = F7C6C751228E75C900B4D6C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7C6C736228E75C800B4D6C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7C6C737228E75C800B4D6C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7C6C73B228E75C800B4D6C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7C6C73C228E75C800B4D6C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7C6C757228E75C900B4D6C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F7C6C758228E75C900B4D6C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7C6C75A228E75C900B4D6C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDCD066FBA83DBCC893028D3 /* Pods-MarsPlan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AS52JH4CQN;
+				INFOPLIST_FILE = MarsPlan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Victoria.com.MarsPlan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7C6C75B228E75C900B4D6C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 103D27E34AF3D73F96243262 /* Pods-MarsPlan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AS52JH4CQN;
+				INFOPLIST_FILE = MarsPlan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Victoria.com.MarsPlan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F7C6C75D228E75C900B4D6C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AS52JH4CQN;
+				INFOPLIST_FILE = MarsPlanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Victoria.com.MarsPlanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarsPlan.app/MarsPlan";
+			};
+			name = Debug;
+		};
+		F7C6C75E228E75C900B4D6C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AS52JH4CQN;
+				INFOPLIST_FILE = MarsPlanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Victoria.com.MarsPlanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarsPlan.app/MarsPlan";
+			};
+			name = Release;
+		};
+		F7C6C760228E75C900B4D6C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AS52JH4CQN;
+				INFOPLIST_FILE = MarsPlanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Victoria.com.MarsPlanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarsPlan;
+			};
+			name = Debug;
+		};
+		F7C6C761228E75C900B4D6C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AS52JH4CQN;
+				INFOPLIST_FILE = MarsPlanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Victoria.com.MarsPlanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarsPlan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7C6C728228E75C800B4D6C5 /* Build configuration list for PBXProject "MarsPlan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7C6C757228E75C900B4D6C5 /* Debug */,
+				F7C6C758228E75C900B4D6C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7C6C759228E75C900B4D6C5 /* Build configuration list for PBXNativeTarget "MarsPlan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7C6C75A228E75C900B4D6C5 /* Debug */,
+				F7C6C75B228E75C900B4D6C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7C6C75C228E75C900B4D6C5 /* Build configuration list for PBXNativeTarget "MarsPlanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7C6C75D228E75C900B4D6C5 /* Debug */,
+				F7C6C75E228E75C900B4D6C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7C6C75F228E75C900B4D6C5 /* Build configuration list for PBXNativeTarget "MarsPlanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7C6C760228E75C900B4D6C5 /* Debug */,
+				F7C6C761228E75C900B4D6C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7C6C725228E75C800B4D6C5 /* Project object */;
+}

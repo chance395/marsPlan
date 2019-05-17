@@ -1,0 +1,1 @@
+../../../JJTools/JJTools/JJTools/Classes/JJEncryptions/NSString+Encryption.h
