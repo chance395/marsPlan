@@ -24,7 +24,12 @@
     
     [super viewDidLoad];
     
-    
+    UILabel *tes3 =[UILabel MAGetLabelWithFont:FONT(12) text:@"CCCC" textColor:[UIColor redColor] textAlignment:NSTextAlignmentLeft superView:self.view masonrySet:^(UILabel *currentLabel, MASConstraintMaker *make) {
+        make.center.equalTo(self.view);
+        make.width.mas_equalTo(100);
+        make.height.mas_equalTo(30);
+    }];
+
 }
 
 -(void)viewDidAppear:(BOOL)animated
