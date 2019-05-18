@@ -19,24 +19,24 @@ PODS:
     - SDWebImage (~> 4.4.6)
     - YYWebImage
   - IQKeyboardManager (6.3.0)
-  - JJTools (1.2.9):
+  - JJTools (1.3.0):
     - AFNetworking
     - GKCover
     - HXPhotoPicker
     - IQKeyboardManager
-    - JJTools/Dispatch_Queue (= 1.2.9)
-    - JJTools/JJBaseView (= 1.2.9)
-    - JJTools/JJBaseViewController (= 1.2.9)
-    - JJTools/JJCategory (= 1.2.9)
-    - JJTools/JJDefine (= 1.2.9)
-    - JJTools/JJEncryptions (= 1.2.9)
-    - JJTools/JJFiles (= 1.2.9)
-    - JJTools/JJModel (= 1.2.9)
-    - JJTools/JJNetWork (= 1.2.9)
-    - JJTools/JJSafe (= 1.2.9)
-    - JJTools/JJSystem (= 1.2.9)
-    - JJTools/JJTool (= 1.2.9)
-    - JJTools/JJUILayout (= 1.2.9)
+    - JJTools/Dispatch_Queue (= 1.3.0)
+    - JJTools/JJBaseView (= 1.3.0)
+    - JJTools/JJBaseViewController (= 1.3.0)
+    - JJTools/JJCategory (= 1.3.0)
+    - JJTools/JJDefine (= 1.3.0)
+    - JJTools/JJEncryptions (= 1.3.0)
+    - JJTools/JJFiles (= 1.3.0)
+    - JJTools/JJModel (= 1.3.0)
+    - JJTools/JJNetWork (= 1.3.0)
+    - JJTools/JJSafe (= 1.3.0)
+    - JJTools/JJSystem (= 1.3.0)
+    - JJTools/JJTool (= 1.3.0)
+    - JJTools/JJUILayout (= 1.3.0)
     - Masonry
     - MBProgressHUD
     - MJExtension
@@ -45,7 +45,7 @@ PODS:
     - SDWebImage
     - UICKeyChainStore
     - zhPopupController
-  - JJTools/Dispatch_Queue (1.2.9):
+  - JJTools/Dispatch_Queue (1.3.0):
     - AFNetworking
     - GKCover
     - HXPhotoPicker
@@ -58,7 +58,7 @@ PODS:
     - SDWebImage
     - UICKeyChainStore
     - zhPopupController
-  - JJTools/JJBaseView (1.2.9):
+  - JJTools/JJBaseView (1.3.0):
     - AFNetworking
     - GKCover
     - HXPhotoPicker
@@ -75,7 +75,7 @@ PODS:
     - SDWebImage
     - UICKeyChainStore
     - zhPopupController
-  - JJTools/JJBaseViewController (1.2.9):
+  - JJTools/JJBaseViewController (1.3.0):
     - AFNetworking
     - GKCover
     - HXPhotoPicker
@@ -90,7 +90,7 @@ PODS:
     - SDWebImage
     - UICKeyChainStore
     - zhPopupController
-  - JJTools/JJCategory (1.2.9):
+  - JJTools/JJCategory (1.3.0):
     - AFNetworking
     - GKCover
     - HXPhotoPicker
@@ -103,7 +103,7 @@ PODS:
     - SDWebImage
     - UICKeyChainStore
     - zhPopupController
-  - JJTools/JJDefine (1.2.9):
+  - JJTools/JJDefine (1.3.0):
     - AFNetworking
     - GKCover
     - HXPhotoPicker
@@ -116,7 +116,7 @@ PODS:
     - SDWebImage
     - UICKeyChainStore
     - zhPopupController
-  - JJTools/JJEncryptions (1.2.9):
+  - JJTools/JJEncryptions (1.3.0):
     - AFNetworking
     - GKCover
     - HXPhotoPicker
@@ -129,7 +129,7 @@ PODS:
     - SDWebImage
     - UICKeyChainStore
     - zhPopupController
-  - JJTools/JJFiles (1.2.9):
+  - JJTools/JJFiles (1.3.0):
     - AFNetworking
     - GKCover
     - HXPhotoPicker
@@ -142,7 +142,7 @@ PODS:
     - SDWebImage
     - UICKeyChainStore
     - zhPopupController
-  - JJTools/JJModel (1.2.9):
+  - JJTools/JJModel (1.3.0):
     - AFNetworking
     - GKCover
     - HXPhotoPicker
@@ -155,7 +155,7 @@ PODS:
     - SDWebImage
     - UICKeyChainStore
     - zhPopupController
-  - JJTools/JJNetWork (1.2.9):
+  - JJTools/JJNetWork (1.3.0):
     - AFNetworking
     - GKCover
     - HXPhotoPicker
@@ -171,7 +171,7 @@ PODS:
     - SDWebImage
     - UICKeyChainStore
     - zhPopupController
-  - JJTools/JJSafe (1.2.9):
+  - JJTools/JJSafe (1.3.0):
     - AFNetworking
     - GKCover
     - HXPhotoPicker
@@ -184,7 +184,7 @@ PODS:
     - SDWebImage
     - UICKeyChainStore
     - zhPopupController
-  - JJTools/JJSystem (1.2.9):
+  - JJTools/JJSystem (1.3.0):
     - AFNetworking
     - GKCover
     - HXPhotoPicker
@@ -197,7 +197,7 @@ PODS:
     - SDWebImage
     - UICKeyChainStore
     - zhPopupController
-  - JJTools/JJTool (1.2.9):
+  - JJTools/JJTool (1.3.0):
     - AFNetworking
     - GKCover
     - HXPhotoPicker
@@ -212,7 +212,7 @@ PODS:
     - SDWebImage
     - UICKeyChainStore
     - zhPopupController
-  - JJTools/JJUILayout (1.2.9):
+  - JJTools/JJUILayout (1.3.0):
     - AFNetworking
     - GKCover
     - HXPhotoPicker
@@ -245,7 +245,7 @@ PODS:
   - zhPopupController (1.0.3)
 
 DEPENDENCIES:
-  - JJTools (~> 1.2.9)
+  - JJTools (~> 1.3.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -271,7 +271,7 @@ SPEC CHECKSUMS:
   GKCover: 5340b5d73adf127a72a4a7649fe3bc6f734f7d23
   HXPhotoPicker: 9ddb80fba3b591c4b5c3b80b0498ee3893d80b5a
   IQKeyboardManager: 2ca9d64893247556f53523dcd8d78641f0ba7c23
-  JJTools: 5497fc3902d0d24932508c1f13fe72aab1623f6c
+  JJTools: 81436bac1619cc2b9f2e2907ea97d0775f3b0ada
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   MJExtension: 74ec83124a68891619fb7ba9c5c811bbf1691076
@@ -284,6 +284,6 @@ SPEC CHECKSUMS:
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
   zhPopupController: 4e6bd734062cb9c7ebe8113568550bade168bed7
 
-PODFILE CHECKSUM: 837477846f8a13c5b601629a13f162766310a46e
+PODFILE CHECKSUM: 05b2bb95b2d6bcb88e8eeb8e1481e4c5dea87d25
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.2
