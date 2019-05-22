@@ -118,12 +118,16 @@
 //        }
 //        return nil;
 //    }];
-    [self.btn setTitle:@"???？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？" forState:UIControlStateNormal];
+    [self.btn setTitle:@"???？？AAhh" forState:UIControlStateNormal];
     [self.btn setImage:[UIImage imageNamed:@"pic_default"] forState:UIControlStateNormal];
     [self.btn addTarget:self action:@selector(testTT) forControlEvents:UIControlEventTouchUpInside];
    
 }
 
+-(void)injected
+{
+    [self viewDidLoad];
+}
 
 -(void)testTT
 {
