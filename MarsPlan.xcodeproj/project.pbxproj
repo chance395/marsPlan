@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8424ED662292CBA1005BA8EE /* JJBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8424ED622292CBA0005BA8EE /* JJBaseViewModel.m */; };
-		8424ED672292CBA1005BA8EE /* RVMViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8424ED652292CBA1005BA8EE /* RVMViewModel.m */; };
-		8424ED6A2292CBAB005BA8EE /* JJBaseTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8424ED692292CBAB005BA8EE /* JJBaseTableViewModel.m */; };
-		8424ED6E2292CC03005BA8EE /* NSObject+RateLimiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 8424ED6D2292CC03005BA8EE /* NSObject+RateLimiting.m */; };
 		8CB2F48650FC8C05A73FBF06 /* libPods-MarsPlan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 370718AEEBB3830AE4FDCC76 /* libPods-MarsPlan.a */; };
 		F7C6C732228E75C800B4D6C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C6C731228E75C800B4D6C5 /* AppDelegate.m */; };
 		F7C6C738228E75C800B4D6C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7C6C736228E75C800B4D6C5 /* Main.storyboard */; };
@@ -55,14 +51,6 @@
 /* Begin PBXFileReference section */
 		103D27E34AF3D73F96243262 /* Pods-MarsPlan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsPlan.release.xcconfig"; path = "Pods/Target Support Files/Pods-MarsPlan/Pods-MarsPlan.release.xcconfig"; sourceTree = "<group>"; };
 		370718AEEBB3830AE4FDCC76 /* libPods-MarsPlan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MarsPlan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8424ED622292CBA0005BA8EE /* JJBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJBaseViewModel.m; sourceTree = "<group>"; };
-		8424ED632292CBA0005BA8EE /* JJBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJBaseViewModel.h; sourceTree = "<group>"; };
-		8424ED642292CBA1005BA8EE /* RVMViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVMViewModel.h; sourceTree = "<group>"; };
-		8424ED652292CBA1005BA8EE /* RVMViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVMViewModel.m; sourceTree = "<group>"; };
-		8424ED682292CBAB005BA8EE /* JJBaseTableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJBaseTableViewModel.h; sourceTree = "<group>"; };
-		8424ED692292CBAB005BA8EE /* JJBaseTableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJBaseTableViewModel.m; sourceTree = "<group>"; };
-		8424ED6C2292CC03005BA8EE /* NSObject+RateLimiting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RateLimiting.h"; sourceTree = "<group>"; };
-		8424ED6D2292CC03005BA8EE /* NSObject+RateLimiting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RateLimiting.m"; sourceTree = "<group>"; };
 		DDCD066FBA83DBCC893028D3 /* Pods-MarsPlan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsPlan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MarsPlan/Pods-MarsPlan.debug.xcconfig"; sourceTree = "<group>"; };
 		F7C6C72D228E75C800B4D6C5 /* MarsPlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarsPlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7C6C730228E75C800B4D6C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -139,16 +127,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		8424ED6B2292CC03005BA8EE /* NSObject+RateLimiting */ = {
-			isa = PBXGroup;
-			children = (
-				8424ED6C2292CC03005BA8EE /* NSObject+RateLimiting.h */,
-				8424ED6D2292CC03005BA8EE /* NSObject+RateLimiting.m */,
-			);
-			name = "NSObject+RateLimiting";
-			path = "../../ios_RB/xuehua_sci.git/XueHua_SCI/XHBusiness/XHBaseVC/XHHome/XHVisitPlanManagement/JJBaseView/NSObject+RateLimiting";
-			sourceTree = "<group>";
-		};
 		B5DBE8DA7627E542F4C7627A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,17 +164,10 @@
 				F7C6C76B228E76B600B4D6C5 /* JJCustomView.xib */,
 				F7C6C76C228E76B600B4D6C5 /* JJTestViewController.h */,
 				F7C6C76D228E76B600B4D6C5 /* JJTestViewController.m */,
-				8424ED6B2292CC03005BA8EE /* NSObject+RateLimiting */,
 				F7C6C76E228E76B600B4D6C5 /* JJTestViewController.xib */,
 				F7C6C766228E76A600B4D6C5 /* JJAVViewController.h */,
 				F7C6C767228E76A600B4D6C5 /* JJAVViewController.m */,
-				8424ED632292CBA0005BA8EE /* JJBaseViewModel.h */,
-				8424ED622292CBA0005BA8EE /* JJBaseViewModel.m */,
-				8424ED642292CBA1005BA8EE /* RVMViewModel.h */,
-				8424ED652292CBA1005BA8EE /* RVMViewModel.m */,
 				F7C6C768228E76A600B4D6C5 /* JJCustomView.h */,
-				8424ED682292CBAB005BA8EE /* JJBaseTableViewModel.h */,
-				8424ED692292CBAB005BA8EE /* JJBaseTableViewModel.m */,
 				F7C6C765228E76A600B4D6C5 /* JJCustomView.m */,
 				F7C6C763228E763C00B4D6C5 /* ViewController.h */,
 				F7C6C762228E763C00B4D6C5 /* ViewController.m */,
@@ -445,7 +416,6 @@
 			files = (
 				F7C6C784228E76C300B4D6C5 /* UITextView+MasonryLayout.m in Sources */,
 				F7C6C770228E76B600B4D6C5 /* JJTestViewController.m in Sources */,
-				8424ED672292CBA1005BA8EE /* RVMViewModel.m in Sources */,
 				F7C6C764228E763D00B4D6C5 /* ViewController.m in Sources */,
 				F7C6C786228E76C300B4D6C5 /* JJTestComponent.m in Sources */,
 				F7C6C783228E76C300B4D6C5 /* JJTestTableViewHeaderFooterView.m in Sources */,
@@ -454,11 +424,8 @@
 				F7C6C732228E75C800B4D6C5 /* AppDelegate.m in Sources */,
 				F7C6C769228E76A600B4D6C5 /* JJCustomView.m in Sources */,
 				F7C6C782228E76C300B4D6C5 /* JJTestCollectionViewCell.m in Sources */,
-				8424ED662292CBA1005BA8EE /* JJBaseViewModel.m in Sources */,
 				F7C6C785228E76C300B4D6C5 /* JJTestCollectionReusableView.m in Sources */,
 				F7C6C787228E76C300B4D6C5 /* JJTestTableViewCell.m in Sources */,
-				8424ED6E2292CC03005BA8EE /* NSObject+RateLimiting.m in Sources */,
-				8424ED6A2292CBAB005BA8EE /* JJBaseTableViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

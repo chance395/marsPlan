@@ -12,6 +12,7 @@
 #import  <JJTools/JJTools.h>
 #import "JJTestComponent.h"
 #import "JJAVViewController.h"
+#import "MJExtension.h"
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *testLabel;
 @property (weak, nonatomic) IBOutlet UIButton *testBtn;
@@ -29,6 +30,19 @@
         make.width.mas_equalTo(100);
         make.height.mas_equalTo(30);
     }];
+    NSURL *ipURL = [NSURL URLWithString:@"http://ip.taobao.com/service/getIpInfo.php?ip=myip"];
+    NSData *data = [NSData dataWithContentsOfURL:ipURL];
+    
+    if (!data) {
+        return ;
+    }
+    NSDictionary *ipDic =[NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
+    
+    NSString *ipStr = @"";
+    if (ipDic && [ipDic[@"code"] integerValue] == 0) { //获取成功
+        ipStr = ipDic[@"data"][@"country_id"];
+        NSLog(@"ip->%@\ncountry_id->%@",ipDic[@"data"][@"ip"],ipDic[@"data"][@"country_id"]);
+    }
 
 }
 
@@ -61,19 +75,30 @@
 //    label.textColor =[UIColor purpleColor];
 //    label.font =FONT(14);
 //    [self.view addSubview:label];
+
     
-    JJTestViewController *test =[[JJTestViewController alloc]init];
-    [self presentViewController:test animated:YES completion:nil];
+//    JJTestViewController *test =[[JJTestViewController alloc]init];
+//    [self presentViewController:test animated:YES completion:nil];
     
 //    JJAVViewController *test =[[JJAVViewController alloc]init];
 //    [self presentViewController:test animated:YES completion:nil];
     
 
-}
-
--(void)injected{
-    [self viewDidLoad];
+  
+//    if (![ipStr isEqualToString:@"US"]) {
+//        return YES;
+//    }
+//    else
+//    {
+//        return NO;
+//    }
+    
     
 }
+
+
+
+
+
 
 @end
