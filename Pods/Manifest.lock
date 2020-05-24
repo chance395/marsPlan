@@ -248,7 +248,7 @@ DEPENDENCIES:
   - JJTools (~> 1.3.0)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - AFNetworking
     - GKCover
     - HXPhotoPicker
@@ -286,4 +286,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 05b2bb95b2d6bcb88e8eeb8e1481e4c5dea87d25
 
-COCOAPODS: 1.6.2
+COCOAPODS: 1.9.2
